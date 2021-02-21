@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  go-grpc:
+    build:
+      context: ./go-grpc/
+      dockerfile: Dockerfile
+    container_name: "go-grpc"
+    volumes:
+      - ../../:/go-grpc
+    tty: true
+    privileged: true
