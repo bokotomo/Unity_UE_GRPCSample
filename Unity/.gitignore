@@ -2,6 +2,8 @@
 KeyAndroid.keystore
 *.keystore
 
+/Assets/Plugins/
+
 # MacBook
 .DS_Store
 .Spotlight-V100
